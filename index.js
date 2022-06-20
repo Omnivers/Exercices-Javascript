@@ -45,5 +45,5 @@ console.log(template);
 // BONUS 
 
 let bonus = 'Bonjour';
-console.log(bonus.replace("o","a"));
+console.log(bonus.replaceAll("o","a"));
 
