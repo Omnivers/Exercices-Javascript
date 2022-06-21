@@ -83,19 +83,18 @@ console.log(`le modulo de test et bis = ${test%bis}`);
 // console.log(modulo); // non
 // let modulo = 691 %5
 // console.log(modulo); // non
-// let Num= 999;
-// let division=[1,2,3,4,5];
+
 
 
 // *******************************************
-
-
-/*
- for (i=0; i<Num.length;i++){
-    console.log(Num%division[i]);
+let division=[1,2,3,4,5];
+let Num=[999,25,190280,47,691];
+ for (i=1; i<division.length;i++){
+    console.log(Num[j]%division[i]);
         }
 
+    
 
 
 
-*/
+
