@@ -97,9 +97,44 @@ switch (month) {
             console.log("ok");
 }
 
-// 07 - Rounded but better 
-Number=3.6
-var roundedNumber=Math.round(Number);
-if(Number)
+// 07 - Rounded but better
+
+var roundedNumber = 153.4
+
+if (roundedNumber-Math.floor(roundedNumber)>= 0.5){
+    roundedNumber = Math.ceil(roundedNumber)
+    console.log(roundedNumber);
+}else {
+    roundedNumber = Math.floor(roundedNumber)
+    console.log(roundedNumber);
+}
+
+// 08 - Rounded but better, Méthode 2
+
+var roundedMethod = 3.4356
+
+var roundedMethodString = roundedMethod.toString()
+
+if (roundedMethodString.substring(roundedMethodString.indexOf(".")+1,roundedMethodString.indexOf(".")+2 )>=5){
+	roundedMethod = Math.ceil(roundedMethod)
+    console.log(roundedMethod);
+}else {
+    roundedMethod = Math.floor(roundedMethod)
+    console.log(roundedMethod);
+}
+
+// 09 - Rounded but better, Méthode 3
+
+var roundedMethodTwo = 134.6864564
+var roundedNumberindex= (roundedMethodTwo.toString()).indexOf(".")+1
+var roundedMethodTwoString = (roundedMethodTwo.toString()).split("")
+
+if (roundedMethodTwoString[roundedNumberindex]>=5){
+        roundedMethodTwo = Math.ceil(roundedMethodTwo)
+        console.log(roundedMethodTwo);
+}else {
+    roundedMethodTwo = Math.floor(roundedMethodTwo)
+    console.log(roundedMethodTwo);
+}
 
 
