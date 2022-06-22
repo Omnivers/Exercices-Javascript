@@ -64,8 +64,13 @@ for(i=1;i<=7;i++){
 
 // 07 - Factorielle v2
 
-
-
+for (i=0 ; i<=liste; i++){
+    total = 1
+    for (j=1; j <= i; j++){
+        total=total*j
+        }
+        console.log(total);
+}
 
 
 // 08 - Somme des carrés 
@@ -122,4 +127,34 @@ console.log(42);
 console.log(0);
 
 // 13 - Encore des boites 
+console.log(0)
+console.log(3);
+console.log(-3);
+console.log(2);
+console.log(-2);
+console.log(5);
+console.log(-4);
+
+// 14 - Amstrong Number
+
+numMax="1000";
+numMin="0";
+
+for(numMin;numMin<numMax;numMin++){
+    if(numMin.toString().charAt(0)**3+numMin.toString().charAt(1)**3+numMin.toString().charAt(2)**3 == numMin){
+        console.log(`Bingo Amstrong ! : ${numMin}`)
+    }
+}
+
+// 15 - Amstrong Number générique 
+
+numMax="10000";
+numMin="0";
+
+for(numMin;numMin<numMax;numMin++){
+    x=numMin.toString().length
+    if(numMin.toString().charAt(0)**x + numMin.toString().charAt(1)**x + numMin.toString().charAt(2)**x + numMin.toString().charAt(3)**x + numMin.toString().charAt(4)**x == numMin){
+        console.log(`Bingo GROS Amstrong ! : ${numMin}`)
+    }
+}
 
