@@ -36,3 +36,16 @@ for(i=0;i<=limit;i++){
     total=total+i;
     console.log(total);
 }
+
+// 06 - Reverse 
+
+const sentence = ["H","e","l","l","o"," ","K","o","n","e","x","i","o"," ","!"]
+var reverseSentence=[""]
+for(i=sentence.length-1;i>=0;i--){
+ reverseSentence.push(`${sentence[i]}`);
+}
+console.log(reverseSentence.join(""));
+
+// 07 - Fizzbuzz
+
+for(i=0;)
