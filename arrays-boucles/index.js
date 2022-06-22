@@ -78,5 +78,11 @@ while (i<limit){
 }
 
 //09 - Sans boucle 
-
+maxi=20;
+min=1;
 noms=["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
+numero=Math.random() * (maxi - min) + min;
+numero=Math.floor(numero);
+console.log(noms[numero]);
+
+// 10 - Random  and max
