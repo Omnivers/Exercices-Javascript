@@ -38,14 +38,45 @@ for(i=0;i<=limit;i++){
 }
 
 // 06 - Reverse 
+const sentence = "Hello Konexio !"
 
-const sentence = ["H","e","l","l","o"," ","K","o","n","e","x","i","o"," ","!"]
+var letters = sentence.split("")
 var reverseSentence=[""]
-for(i=sentence.length-1;i>=0;i--){
- reverseSentence.push(`${sentence[i]}`);
+for(i=letters.length-1;i>=0;i--){
+ reverseSentence.push(`${letters[i]}`);
 }
 console.log(reverseSentence.join(""));
 
 // 07 - Fizzbuzz
+const max=100;
+for(i=0;i<=max;i++){
+    if (i%3===0 && i%5===0){
+        console.log("fizzbuzz");
+    }
+    else if(i%3===0){
+        console.log('fizz')
+    }
+    else if (i%5===0) {
+        console.log('buzz');
+    }
+    else if (i%7===0){
+        console.log("");
+    }
+    else{
+        console.log(i);
+    }
+}
 
-for(i=0;)
+// 08 - While 
+
+i=0;
+total=0;
+while (i<limit){
+    i+=1;
+    total=total+i;
+    console.log(total);
+}
+
+//09 - Sans boucle 
+
+noms=["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
