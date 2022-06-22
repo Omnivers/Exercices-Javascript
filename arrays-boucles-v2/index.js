@@ -79,5 +79,28 @@ while(firstNumber<=secondNumber){
 }
 console.log(Somme);
 
+// 09 - Comptons 
 
+numMax=1000;
+numMin=100;
+somme=0;
 
+for(i=numMin;i<numMax;i++){
+    if (i%7==0) {
+        somme++;
+    }
+}
+console.log(somme);
+
+// 10 - Chanceux
+numMin=0;
+numMax=6;
+somme=0;
+for(i=0;i<20;i++){
+    de=Math.random() * (numMax- numMin) + numMin;
+    de=Math.ceil(de);
+    if(de>=5) {
+        somme++
+    }
+}
+console.log(somme);
