@@ -54,5 +54,10 @@ for(i=0;i<=10;i++){
     }
 
 
-// 06 - Factorielle V1 
+// 06 - Factorielle V1
 
+multiple=1 
+for(i=1;i<=7;i++){
+    console.log(`${i}! =${multiple} x ${i} = ${multiple*i}`)
+    multiple=multiple*i
+}
