@@ -61,3 +61,23 @@ for(i=1;i<=7;i++){
     console.log(`${i}! =${multiple} x ${i} = ${multiple*i}`)
     multiple=multiple*i
 }
+
+// 07 - Factorielle v2
+
+
+
+
+
+// 08 - Somme des carrés 
+
+firstNumber=5;
+secondNumber=10;
+Somme=0;
+while(firstNumber<=secondNumber){
+    Somme=firstNumber**2+Somme;
+    firstNumber++;
+}
+console.log(Somme);
+
+
+
