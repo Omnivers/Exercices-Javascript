@@ -104,3 +104,22 @@ for(i=0;i<20;i++){
     }
 }
 console.log(somme);
+
+// 11- Des boites
+console.log(10);
+console.log(34);
+console.log(17);
+console.log(30);
+console.log(14);
+
+// 12 - D'autres boites 
+
+console.log(12);
+console.log(24);
+console.log(33);
+console.log(39);
+console.log(42);
+console.log(0);
+
+// 13 - Encore des boites 
+
