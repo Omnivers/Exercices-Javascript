@@ -78,11 +78,27 @@ while (i<limit){
 }
 
 //09 - Sans boucle 
-maxi=20;
-min=1;
+maxi=21;
+min=0;
 noms=["Walid","Wade","Rayan","Walid","Benoit","Emad","Jad","Lynda","Florez","Lucas","Arthur","Thomas","Aurelien","Clara","Danh","Cinie","Edaly","Mago","Dushen","Julien","Florent"];
 numero=Math.random() * (maxi - min) + min;
 numero=Math.floor(numero);
 console.log(noms[numero]);
 
 // 10 - Random  and max
+min=0;
+maxi=100;
+tableau=[];
+for (i=0;i<20;i++){
+    numero=Math.random() * (maxi - min) + min;
+    numero=Math.floor(numero);
+    tableau.push(numero);
+}
+console.log(tableau);
+numMax=0;
+for (i=0;i<=tableau.length;i++){
+    if (numMax<tableau[i]) {
+        numMax=tableau[i]
+    }
+}
+console.log(numMax);
