@@ -87,6 +87,10 @@ format(3700)
 // 07 - Password generation 
 
 generatePassword = (num) => {
+    if(num<6 || num>15){
+        console.log("Error !");
+        return;
+    }
     let mdp=[];
     let min=0;
     alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -102,6 +106,8 @@ generatePassword(3);
 generatePassword(8);
 generatePassword(9);
 generatePassword(2);
+generatePassword(16);
+generatePassword(13);
 
 // 08 - Let's play
 let somme=0;
@@ -112,7 +118,8 @@ const launchDice = (numberOfDice) => {
         x=Math.floor(Math.random() * (numberOfDice - min) + min)
         sum=sum+x
     }
-    
+    console.log(sum);
 }
-
+launchDice(5);
+launchDice(5);
 
