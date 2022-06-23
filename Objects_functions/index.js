@@ -121,5 +121,19 @@ const launchDice = (numberOfDice) => {
     console.log(sum);
 }
 launchDice(5);
+joueur1=sum;
 launchDice(5);
+joueur2=sum;
+if(joueur1>joueur2){
+    console.log("Le premier joueur a remporter la partie !")
+}
+else if(joueur2>joueur1){
+    console.log("Le deuxieme joueur a remporter la partie !")
+}
+else{
+    console.log("Il y'a eu une égalité veuillez relancer la partie !")
+}
+
+
+
 
