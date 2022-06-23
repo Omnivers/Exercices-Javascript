@@ -43,5 +43,36 @@ checkIfEven(11111111);
 // 04 - Compare 
 
 const compare = (x,y) =>{
-
+    if(x>y){
+        console.log(`${x} is bigger`);
+    }
+    else if(y>x){
+        console.log(`${y} is bigger`);
+    }
+    else{
+        console.log("Both are the same");
+    }
 }
+
+compare(3,4);
+compare(3,3);
+compare(5,4);
+compare(6,4);
+compare(3,5);
+compare(3,1032);
+compare(340934,49039403);
+
+// 05 - Add Up
+sum=0;
+const addUp = (num) => {
+    for (let i = 0; i <= num; i++) {
+        sum=sum+i
+    }
+    console.log(sum);
+}
+
+addUp(12);
+
+// 06 - Time 
+
+
