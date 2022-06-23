@@ -75,22 +75,14 @@ addUp(12);
 
 // 06 - Time 
 
-// const format = (num) => {
-//     let secondes=num;
-//     let minutes=0;
-//     let heures=0;
-//     if(num>60){
-//         num;
-//         minutes+=1;
-//     }
-//     if(minutes>60){
-//         minutes=1;
-//         heures+=1;
-//     }
-//     console.log(`${heures} : ${minutes} : ${secondes} `);
-// }
+const format = (num) =>{
+    let hour = Math.floor(num/3600)
+    let minute = Math.floor((num-(hour*3600))/60)
+    let seconde = num - ((hour*3600) + (minute*60))
+    console.log(`${hour} : ${minute} : ${seconde}`);
+}
 
-// format(3700);
+format(3700)
 
 // 07 - Password generation 
 
@@ -111,4 +103,16 @@ generatePassword(8);
 generatePassword(9);
 generatePassword(2);
 
-// 08 - 
+// 08 - Let's play
+let somme=0;
+const launchDice = (numberOfDice) => {
+    sum=0;
+    min=0;
+    for(i=0;i<numberOfDice;i++){
+        x=Math.floor(Math.random() * (numberOfDice - min) + min)
+        sum=sum+x
+    }
+    
+}
+
+
