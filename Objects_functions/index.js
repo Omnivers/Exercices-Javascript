@@ -75,4 +75,40 @@ addUp(12);
 
 // 06 - Time 
 
+// const format = (num) => {
+//     let secondes=num;
+//     let minutes=0;
+//     let heures=0;
+//     if(num>60){
+//         num;
+//         minutes+=1;
+//     }
+//     if(minutes>60){
+//         minutes=1;
+//         heures+=1;
+//     }
+//     console.log(`${heures} : ${minutes} : ${secondes} `);
+// }
 
+// format(3700);
+
+// 07 - Password generation 
+
+generatePassword = (num) => {
+    let mdp=[];
+    let min=0;
+    alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    alphabet=alphabet.split('');
+    for(i=0; i<num;i++){
+        x=Math.floor(Math.random() * (alphabet.length - min) + min)
+        mdp.push(alphabet[x]);
+    }
+    console.log(mdp.join(''));
+}
+generatePassword(5);
+generatePassword(3);
+generatePassword(8);
+generatePassword(9);
+generatePassword(2);
+
+// 08 - 
