@@ -117,3 +117,11 @@
 //     return cake.name==="pie";
 // })
 // console.log(getName);
+
+// 07 - Factorielle forEach
+// const numbers = [1,2,3,4,5,6,7,8,9];
+// let result = 1;
+// numbers.forEach(number => {
+//   result = result * number;
+// })
+// console.log(result);
