@@ -24,3 +24,11 @@
 //     };
 // })
 // console.log(shortNames);
+
+// 03 - Filter Numbers
+
+// let array=[1,"toto",34,"javascript",8];
+// let numbers=array.filter((i)=>{
+//     return i>0;
+// })
+// console.log(numbers)
