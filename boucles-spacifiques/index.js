@@ -143,3 +143,14 @@
 //   console.log(space);
 // })
 
+// 09 - Exercice 3 bis
+// const numbers = (array) =>{
+// 	const numbers = array.bers((num) =>{
+
+//         return typeof (num) === "number";
+// 	})
+    
+// 	console.log(numbers);
+// }
+
+// numbers([1,6,"number",8,"java",90]);
