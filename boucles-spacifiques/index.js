@@ -125,3 +125,21 @@
 //   result = result * number;
 // })
 // console.log(result);
+
+// 08 - Chess board 
+// const scale = [0,1,2,3,4,5,6,7];
+// scale.forEach((line, i) => {
+//   let space = "";
+
+//   scale.forEach((square, j) => {
+//     if ((i + j) % 2 === 0) {
+//       space += "[ ]";
+//     } 
+    // else {
+//       space += "[X]";
+//     }
+//   })
+
+//   console.log(space);
+// })
+
